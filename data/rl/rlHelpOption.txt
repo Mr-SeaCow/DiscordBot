@@ -1,0 +1,32 @@
+```Markdown
+                Made some adjustments to the command !rl
+==========================================================================
+                           Setup Options
+--------------------------------------------------------------------------
+
+    1. ADD
+        Add a steam id to your preset. (!rl add mrseacow)
+    2. DEL
+        Delete a steam id from your preset. (!rl del 3)
+    3. SET
+        Changes a steam id in designated preset. (!rl set 2 mrseacow2)
+    4. LIST
+        Lists the presets linked to your steam account. (!rl list)
+    5. HELP
+        Displays a help guide.
+
+                           Recall Options
+--------------------------------------------------------------------------
+    1. Steam Id
+        Gets the rank of a steam id. (!rl mrseacow)
+    2. EPIC Name
+        Gets the rank of an PS4 account. (!rl -epic mrseacow) or (!rl mrseacow -epic)
+    3. XBOX Name
+        Gets the rank of an XBOX account. (!rl -xbox mrseacow) or (!rl mrseacow -xbox)
+    4. PS4 Name
+        Gets the rank of an PS4 account. (!rl -ps4 mrseacow) or (!rl mrseacow -ps4)
+    5. Preset
+        Gets the rank of a steam account linked to a preset. (!rl 1)
+    6. Season
+        To get the ranks for a certain season add the season number at the end of the command. (!rl mrseacow 7)
+```

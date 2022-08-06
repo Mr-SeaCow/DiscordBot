@@ -1,0 +1,28 @@
+{
+  "name": "mr.-redirection-4.0",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start app": "node app.js",
+    "start slash": "node slash.js"
+  },
+  "author": "Matthew Van Vleet",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "@mysql/xdevapi": "^8.0.29",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "follow-redirects": "^1.15.0",
+    "puppeteer": "^14.1.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "redis": "^4.1.0",
+    "steam-api": "^1.1.3",
+    "steamapi": "^2.2.0",
+    "sync-request": "^6.1.0"
+  }
+}
